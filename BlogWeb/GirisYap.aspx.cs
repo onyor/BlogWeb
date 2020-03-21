@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 public partial class GirisYap : System.Web.UI.Page
 {
 
-    SqlConnection baglantı = new SqlConnection(@"Data Source=DESKTOP-9BAHUVF;Initial Catalog=BlogWebDB;Integrated Security=True");
+    SqlConnection baglantı = new SqlConnection(@"Data Source=DESKTOP-S4C5D2M;Initial Catalog=BlogWebDB;Integrated Security=True");
     protected void Page_Load(object sender, EventArgs e)
     {
 
